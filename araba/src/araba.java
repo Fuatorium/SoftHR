@@ -2,7 +2,7 @@ public class araba {
 
     private String marka;
     private String model;
-    private long price;
+    private String price;
 
     private String motorTipi;
     private double motorHacmi;
@@ -44,6 +44,10 @@ public class araba {
         public String getMarka() {
             return marka;
         }
+
+        public String getPrice() {
+            return price;
+        }        
     
         public void setMarka(String marka) {
             this.marka = marka;
